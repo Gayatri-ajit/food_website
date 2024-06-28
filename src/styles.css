@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-white rounded-lg overflow-hidden shadow-md md:h-80 relative hover:shadow-xl;
+}
+
+.badge{
+    @apply text-black text-xs bg-gray-200 p-2 rounded-full absolute top-0 ml-2 mt-2;
+}
+
+.image{
+    @apply rounded h-48 w-full object-cover sm:h-60;
+}
+
+.button{
+    @apply uppercase font-bold px-3 py-2 rounded-full text-sm tracking-wider cursor-pointer;
+}
